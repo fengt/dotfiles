@@ -3,7 +3,7 @@
 	smudge = git hawser smudge %f
 	required = true
 [user]
-	name = fhalcyon
+	name = Marco Feng
 	email = fhalcyon@gmail.com
 [alias]
   a = add
@@ -33,10 +33,12 @@
 	smudge = git lfs smudge %f
 	required = true
 [core]
-	excludesfile = /Users/ftag/.gitignore_global
+	excludesfile = /Users/marco/.gitignore_global
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
 	path = 
 [mergetool "sourcetree"]
 	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
+[commit]
+  template = /Users/marco/.stCommitMsg
